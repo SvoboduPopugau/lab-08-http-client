@@ -1,7 +1,7 @@
 // Copyright 2020 Your Name <your_email>
 
-#ifndef INCLUDE_HEADER_HPP_
-#define INCLUDE_HEADER_HPP_
+#ifndef INCLUDE_SUGGESTCLIENT_HPP_
+#define INCLUDE_SUGGESTCLIENT_HPP_
 
 #include <boost/beast/http.hpp>
 #include <nlohmann/json.hpp>
@@ -21,4 +21,4 @@ class SuggestClient{
   std::string const port_;
 };
 
-#endif // INCLUDE_HEADER_HPP_
+#endif // INCLUDE_SUGGESTCLIENT_HPP_

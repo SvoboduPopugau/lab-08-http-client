@@ -10,7 +10,6 @@ SuggestClient::SuggestClient(std::string host, std::string port): host_(host),
                                                                   port_(port)
                                                                        {}
 json SuggestClient::DoSession(std::string s_input) {
-
   boost::asio::io_context ioc{};
 
   boost::asio::ip::tcp::resolver resolver(ioc);
